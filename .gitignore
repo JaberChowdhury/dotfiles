@@ -1,0 +1,96 @@
+# Ignore caches and temp files
+**/cache/
+**/.cache/
+**/Cache/
+**/.Trash/
+**/tmp/
+**/.tmp/
+**/temp/
+**/.temp/
+
+# Ignore everything in .local/share
+.local/share/*
+.local/state/*
+
+# But keep the caelestia folder
+!.local/share/caelestia/
+!.local/state/caelestia/
+!.local/state/fish/
+!.local/state/hyprland/
+!.local/state/sddm/
+
+!.local/share/fish/
+!.local/share/hyprland/
+!.local/share/sddm/
+
+# Ignore thumbnails and screenshots
+**/thumbnails/
+**/Thumbnails/
+**/Screenshots/
+**/screenshots/
+
+# Ignore logs
+**/*.log
+
+# Ignore image files (usually not config)
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.bmp
+**/*.svg
+
+# Ignore system files
+**/.DS_Store
+**/.localized
+**/Thumbs.db
+
+# Ignore package managers / IDE / editor junk
+**/.idea/
+**/.vscode/
+**/.vscode-server/
+**/.history/
+**/.cache-vscode/
+**/.mypy_cache/
+**/__pycache__/
+**/.pytest_cache/
+**/.tox/
+
+# Ignore binary or build artifacts
+**/node_modules/
+**/dist/
+**/build/
+**/out/
+**/.parcel-cache/
+**/.next/
+**/.nuxt/
+**/target/
+**/bin/
+**/obj/
+
+# Ignore misc user-specific files
+**/*.swp
+**/*.swo
+**/*.bak
+**/*.tmp
+
+# Ignore flatpak / snap cache folders (if applicable)
+**/.flatpak/
+**/.snap/
+
+# Ignore fonts cache
+**/fontconfig/
+
+# Ignore local database files
+**/*.sqlite
+**/*.db
+
+# Ignore downloads
+**/Downloads/
+
+# Ignore large media files (optional, remove if needed)
+**/*.mp4
+**/*.mkv
+**/*.mp3
+**/*.flac
+
